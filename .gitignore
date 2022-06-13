@@ -1,0 +1,118 @@
+#### Project Base ###
+
+#### Unknown ###
+
+*#
+*.sw?
+*~
+.#*
+MANIFEST.MF
+_site/
+activemq-data
+dependency-reduced-pom.xml
+dump.rdb
+interpolated*.xml
+lib/
+manifest.yml
+overridedb.*
+transaction-logs
+.flattened-pom.xml
+secrets.yml
+
+#### Temp Files ###
+*.java._trace
+*.pyc
+*.tmp
+*.swp
+*.bak
+~*.xlsx
+tmp/
+
+#### Derived Files ###
+.*.md.html
+*.jar
+
+#### Version Control  ###
+.svn/
+.git/
+
+#### logfiles ###
+.logs/
+logs/
+*.log
+
+#### Testing ###
+coverage/
+
+#### Building ###
+!/docs/build/
+build/
+
+#### OS (windows, osx) ###
+.DS_Store
+Thumbs.db
+
+#### node.js ###
+node_modules/
+.pnp/
+.pnp.js
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+#### maven & gradle ###
+target/
+!.mvn/wrapper/maven-wrapper.jar
+settings.xml
+.gradle
+.gradletasknamecache
+
+#### eclipse / sts ###
+*.launch
+*.pydevproject
+*~.nib
+bin/
+.apt_generated/
+.apt_generated_test/
+.externalToolBuilders/
+.metadata/
+.recommenders/
+.settings/
+.autotools
+.buildpath
+.cache-main
+.classpath
+.cproject
+.factorypath
+.loadpath
+.project
+.scala_dependencies
+.springBeans
+.target
+.tern-project
+.texlipse
+.worksheet
+
+#### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+#### VS Code ###
+.vscode/
+.history/
+
+
+#### NetBeans ###
+#/nbproject/private/
+#/nbbuild/
+#/dist/
+#/nbdist/
+#/.nb-gradle/
+#/build/
+
+#### Pattern Rule ####
+#<dir-name>/ : <dir-name>폴더 하위의 파일 및 디렉토리
+#/<dir-name> : 현재 디렉로티 바로 밑의 <dir-name>
